@@ -1,6 +1,6 @@
 # TIFFCapture
 
-An `OpenCV::VideoCapture` like implementation for multi-directory TIFF media
+An `OpenCV::VideoCapture` like implementation for multi-directory TIFF media using `libtiff`
 
 ## Requirements
 
@@ -9,20 +9,20 @@ An `OpenCV::VideoCapture` like implementation for multi-directory TIFF media
 
 ## Methods
 
-    TIFFCapture(const char* tifffile)
-    bool open(const char* tifffile)
-    bool isOpened()
-    void release()
-    void operator >> (Mat& image)
-    bool read(Mat& image)
-    int get(int propId)
+* TIFFCapture(const char* tifffile)
+* bool open(const char* tifffile)
+* bool isOpened()
+* void release()
+* void operator >> (Mat& image)
+* bool read(Mat& image)
+* int get(int propId)
 
 ## Properties
 
-    TIFF_CAP_PROP_FRAME_COUNT
-    TIFF_CAP_PROP_FRAME_HEIGHT
-    TIFF_CAP_PROP_FRAME_WIDTH
-    TIFF_CAP_PROP_FRAME_POS
+* TIFF_CAP_PROP_FRAME_COUNT
+* TIFF_CAP_PROP_FRAME_HEIGHT
+* TIFF_CAP_PROP_FRAME_WIDTH
+* TIFF_CAP_PROP_FRAME_POS
 
 ## Example
 
