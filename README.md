@@ -26,7 +26,9 @@ An `OpenCV::VideoCapture` like implementation for multi-directory TIFF media
 
 ## Example
 
-See `main.cpp`. Run `make` then execute `./TIFFCapture`
+See `main.cpp`. Run `make` then execute `./TIFFCapture`.
+
+![TIFFCapture](screen.png)
 
 ## Doesn't Work on Windows?
 
